@@ -1,5 +1,6 @@
 
 function validAnagram(str, str2){
+    // add whatever parameters you deem necessary - good luck!
     if(str.length !== str2.length){
         return false
     }
@@ -21,9 +22,8 @@ function validAnagram(str, str2){
             obj[el] -=1
         }
     }
-    console.log(obj)
+    return true
     
   }
-
 
   validAnagram('anagram', 'nagaram')
