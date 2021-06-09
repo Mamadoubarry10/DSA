@@ -10,7 +10,8 @@ function countUniqueValues(arr){
       
    }
     
-
+return i + 1
     
   }
-  console.log(countUniqueValues(1,1,1,1,1,2, 5))
+  console.log(countUniqueValues([1,1,2,2,4,5]))
+  
