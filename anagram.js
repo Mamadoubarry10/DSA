@@ -26,4 +26,4 @@ function validAnagram(str, str2){
     
   }
 
-  validAnagram('anagram', 'nagaram')
+  console.log(validAnagram('anagram', 'nagaram'))
